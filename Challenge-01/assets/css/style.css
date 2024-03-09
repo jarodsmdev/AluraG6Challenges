@@ -24,8 +24,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+
 body{
     background-color: var(--lightBlue300);
+    max-width: 1440px;
+    min-width: 310px;
 }
 
 .container{
@@ -134,5 +137,31 @@ body{
 .copyright-info{
     text-align: center;
     font-size: 14px;
+    text-align: center;
     color: var(--gray400);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media screen and (min-width: 450px){
+    .container{
+        min-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .actionButtonsContainer{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer{
+        padding: 50px 20px 5px;
+    }
 }
