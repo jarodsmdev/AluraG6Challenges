@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Challenge 01 de Alura ONE.  Encriptador/Desencriptador de Texto">
+    <!--NORMALIZE CSS-->
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Encriptador / Desencriptador Texto - Alura Latam ONE</title>
+</head>
+<body class="container">
+    <header class="header__logo">
+        <img src="./assets/img/icon.svg" alt="Logo de Alura Latam">
+    </header>
+
+    <main>
+        <section>
+            <input
+                type="text"
+                name="code"
+                id="code"
+                placeholder="Ingrese el texto aquí"
+                required
+                class="messageInput">
+
+            <div class="text-info-warning">
+                <small class="warning-lowercase-noaccent">
+                    <img src="./assets/img/info.svg" alt="Ícono de información">
+                    Sólo letras minúsculas y sin acentos
+                </small>
+            </div>
+
+            <div class="actionButtonsContainer">
+                <button id="EncryptButton" class="actionButtons btnEncrypt">Encriptar</button>
+                <button id="DecryptButton" class="actionButtons btnDecrypt">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="messageOutput__section">
+            <p class="messageOutput__decrypt">Ningún mensaje fue encontrado</p>
+            <p class="messageOutput__info">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socialMedia">
+            <a href="#" target="_blank"><img src="./assets/img/github_logo.svg" alt="Logo de Github" width="36px"></a>
+            <a href="#" target="_blank"><img src="./assets/img/linkedin_logo.svg" width="36px"></a>
+        </div>
+        <p class="copyright-info">&copy; Desarrollado por Leonel Briones Palacios | Alura Latam ONE G6 2024.</p>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

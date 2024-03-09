@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+    --darkBlue100: #609ed4;
+    --darkBlue200: #356ea9;
+    --darkBlue300: #0a3871;
+    --darkBlue400: #072b61;
+    --darkBlue500: #052051;
+
+    --lightBlue100: #f3f5fc;
+    --lightBlue200: #eff1fa;
+    --lightBlue300: #e9ecf8;
+    --lightBlue400: #aab2d5;
+    --lightBlue500: #757fb2;
+
+    --gray100: #ced4da;
+    --gray200: #adb5bd;
+    --gray300: #868e96;
+    --gray400: #495057;
+    --gray500: #343a40;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--lightBlue300);
+}
+
+.container{
+    padding: 20px;
+}
+
+.header__logo{
+    width: 100%;
+}
+
+/*Message Input*/
+.messageInput{
+    margin-top: 20px;
+    border: none;
+    background-color: var(--lightBlue300);
+    color: var(--darkBlue200);
+    font-size: 30px;
+    outline: none;
+    width: 100%;
+    height: 300px;
+    padding-left: 20px;
+}
+.messageInput::placeholder{
+    vertical-align: top;
+}
+
+/*text-info-warning*/
+.text-info-warning{
+
+}
+
+/*warning-lowercase-noaccent*/
+.warning-lowercase-noaccent{
+    color: var(--gray400);
+    display: flex;
+    gap: 5px;
+    align-items: center; 
+    padding: 30px 0;
+}
+
+.warning-lowercase-noaccent:hover{
+
+}
+
+/*Actions Buttons*/
+.actionButtonsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.actionButtons{
+    width: 100%;
+    height: 4rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid var(--darkBlue500);
+}
+
+.btnEncrypt{
+    background-color: var(--darkBlue500);
+    color: var(--lightBlue100);
+    transition: background-color 0.3s ease;
+}
+
+.btnEncrypt:hover{
+    background-color: var(--darkBlue300);
+}
+
+.btnDecrypt{
+    background-color: var(--lightBlue500);
+    color: var(--darkBlue500);
+    transition: background-color 0.3s ease;
+}
+
+.btnDecrypt:hover{
+    background-color: var(--lightBlue400);
+}
+
+/*messageOutput__section*/
+.messageOutput__section{
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.messageOutput__decrypt{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--darkBlue500);
+}
+
+.messageOutput__info{
+    color: var(--gray400);
+}
+
+/*Footer*/
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.copyright-info{
+    text-align: center;
+    font-size: 14px;
+    color: var(--gray400);
+}
