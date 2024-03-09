@@ -27,7 +27,6 @@
 
 body{
     background-color: var(--lightBlue300);
-    max-width: 1440px;
     min-width: 310px;
 }
 
@@ -40,7 +39,7 @@ body{
 }
 
 /*Message Input*/
-.messageInput{
+.messageInput {
     margin-top: 20px;
     border: none;
     background-color: var(--lightBlue300);
@@ -48,9 +47,12 @@ body{
     font-size: 30px;
     outline: none;
     width: 100%;
-    height: 300px;
-    padding-left: 20px;
+    min-height: 300px;
+    resize: none; 
+    overflow-y: auto;
 }
+
+
 .messageInput::placeholder{
     vertical-align: top;
 }
@@ -62,15 +64,11 @@ body{
 
 /*warning-lowercase-noaccent*/
 .warning-lowercase-noaccent{
-    color: var(--gray400);
+    color: var(--darkBlue100);
     display: flex;
     gap: 5px;
     align-items: center; 
     padding: 30px 0;
-}
-
-.warning-lowercase-noaccent:hover{
-
 }
 
 /*Actions Buttons*/
@@ -162,7 +160,24 @@ body{
     main{
         display: flex;
         justify-content: space-evenly;
+        height: 100vw;
+        gap: 20px;
     }
+
+    .messageInput{
+        width: 60vw;
+        height: 58vh;
+        text-align: left;
+    }
+
+    .messageOutput__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        height: 70vh;
+    }
+    
 
     .messageOutput__image{
         display: block;
