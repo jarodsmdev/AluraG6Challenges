@@ -108,6 +108,9 @@ body{
 }
 
 /*messageOutput__section*/
+.messageOutput__image{
+    display: none;
+}
 .messageOutput__section{
     margin-top: 20px;
     background: #ffffff;
@@ -123,7 +126,7 @@ body{
 }
 
 .messageOutput__info{
-    color: var(--gray400);
+    color: var(--darkBlue100);
 }
 
 /*Footer*/
@@ -159,6 +162,10 @@ body{
     main{
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .messageOutput__image{
+        display: block;
     }
 
     footer{
