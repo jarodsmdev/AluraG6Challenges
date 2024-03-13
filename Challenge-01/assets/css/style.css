@@ -160,7 +160,6 @@ body{
     main{
         display: flex;
         justify-content: space-evenly;
-        height: 100vw;
         gap: 20px;
     }
 
