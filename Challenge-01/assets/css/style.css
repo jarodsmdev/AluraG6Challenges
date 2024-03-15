@@ -117,14 +117,14 @@ body{
     text-align: center;
 }
 
-.messageOutput__decrypt{
+.messageOutput__info{
     font-weight: 700;
     font-size: 24px;
     color: var(--darkBlue500);
 }
 
-.messageOutput__info{
-    color: var(--darkBlue100);
+.messageOutput__decrypt{
+    color: var(--darkBlue200);
 }
 
 /*Footer*/
