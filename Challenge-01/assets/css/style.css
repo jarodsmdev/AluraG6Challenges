@@ -115,6 +115,7 @@ body{
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
 }
 
 .messageOutput__info{
@@ -125,6 +126,7 @@ body{
 
 .messageOutput__decrypt{
     color: var(--darkBlue200);
+    word-wrap: break-word;
 }
 
 /*Footer*/
