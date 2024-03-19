@@ -22,5 +22,9 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto.
 - CSS Vanilla
 - JavaScript Vanilla
 
+## Despliegue
+
+<a href="https://encriptador-texto-alura6.netlify.app/" target="_blank">Web Encriptador de texto</a>
+
 
 
