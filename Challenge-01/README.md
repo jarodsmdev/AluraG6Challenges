@@ -9,7 +9,7 @@ Este proyecto es una aplicación web que permite encriptar y desencriptar texto.
 
 ## Mensaje Secreto
 
-<a href="./assets/img/mensajeSecreto.jpg" download style="background:green; padding:10px; color:white;border-radius:10px">Descargar mensaje Secreto</a>
+![Mensaje Secreto](./assets/img/mensajeSecreto.jpg)
 
 ## Características
 

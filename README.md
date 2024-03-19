@@ -7,7 +7,10 @@
 ### Desafío 1
 Este proyecto es una aplicación web que permite encriptar y desencriptar texto. Fue desarrollado como parte del Grupo 6 del programa Alura Latam ONE.
 
+Respositorio Github [https://github.com/jarodsmdev/AluraG6Challenges/tree/main/Challenge-01](https://github.com/jarodsmdev/AluraG6Challenges/tree/main/Challenge-01)
+
 Ir al live preview en Github Pages: <a href="https://jarodsmdev.github.io/AluraG6Challenges/Challenge-01/" target="_blank">https://jarodsmdev.github.io/AluraG6Challenges/Challenge-01/</a>
+
 Más detalles sobre este desafío se pueden encontrar en <a href="https://www.aluracursos.com/challenges/principiante-en-programacion/semana-01-implementando-html-y-css" target="_blank">Alura Cursos</a>.
 
 ## Características
