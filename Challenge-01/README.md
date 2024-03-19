@@ -1,10 +1,15 @@
 # Desafío 01 - Alura Latam ONE G6
+---
 
 Bienvenido al Desafío 01 del programa de educación de Alura Latam ONE en modalidad e-learning.
 
 ## Descripción del Proyecto
 
 Este proyecto es una aplicación web que permite encriptar y desencriptar texto. Fue desarrollado como parte del Desafío 01 del Grupo 6 del programa Alura Latam ONE.
+
+## Mensaje Secreto
+
+<a href="./assets/img/mensajeSecreto.jpg" download style="background:green; padding:10px; color:white;border-radius:10px">Descargar mensaje Secreto</a>
 
 ## Características
 
