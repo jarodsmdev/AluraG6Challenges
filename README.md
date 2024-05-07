@@ -25,6 +25,11 @@ Más detalles sobre este desafío se pueden encontrar en <a href="https://www.al
 - CSS Vanilla
 - JavaScript Vanilla
 
+### Desafío 2
 
+Este proyecto Java implementa un sistema de conversión de monedas utilizando la API de tipo de cambio de [ExchangeRate-API](https://www.exchangerate-api.com/).
 
+El programa permite al usuario convertir una cantidad de una moneda a otra seleccionando las monedas de origen y destino, y proporcionando el monto a convertir.
+
+Enlace al Readme: [Desafío 2](https://github.com/jarodsmdev/AluraG6Challenges/tree/main/Challenge-02/ConversorMonedas)
 
